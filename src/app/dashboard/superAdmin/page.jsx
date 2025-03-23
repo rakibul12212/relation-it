@@ -1,7 +1,14 @@
 "use client";
 
+import SuperAdminSidebar from "@/Component/sidebar/SuperAdminSidebar";
+
 const page = () => {
-  return <div>super admin dashboard</div>;
+  return (
+    <div>
+      <SuperAdminSidebar/>
+      <p>super admin dashboard</p>
+    </div>
+  );
 };
 
 export default page;

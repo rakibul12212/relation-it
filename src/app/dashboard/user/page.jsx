@@ -1,8 +1,14 @@
 "use client";
+import UserSidebar from "@/Component/sidebar/UserSidebar";
 import React from "react";
 
 const page = () => {
-  return <div>user dashboard</div>;
+  return (
+    <div>
+      <UserSidebar />
+      <p>user dashboard</p>
+    </div>
+  );
 };
 
 export default page;
