@@ -1,6 +1,7 @@
 "use client";
 
-import Navbar from "@/Component/shared/navbar";
+import Navbar from "@/Component/shared/Navbar";
+
 
 const HomePage = () => {
   return (
