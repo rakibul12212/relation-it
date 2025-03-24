@@ -45,8 +45,8 @@ export default function AdminSidebar() {
         {/* Employee Profile */}
         <div className="flex flex-col items-center justify-center mb-6 rounded-md shadow-sm hover:shadow-md p-4 text-center">
           <Image
-            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
-            alt="employee"
+            src="https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=2628"
+            alt="admin"
             width={100}
             height={100}
             className="rounded-full object-cover"

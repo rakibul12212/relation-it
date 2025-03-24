@@ -45,8 +45,8 @@ export default function SuperAdminSidebar() {
         {/* Employee Profile */}
         <div className="flex flex-col items-center justify-center mb-6 rounded-md shadow-sm hover:shadow-md p-4 text-center">
           <Image
-            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D"
-            alt="employee"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMaT_ZJ1PscPs0m7B0xx_gLUcM8WPjPw1uDol5_cog3HqI0LvNFXOeNTW6WTbiRAh0PDE&usqp=CAU"
+            alt="super admin"
             width={100}
             height={100}
             className="rounded-full object-cover"
