@@ -6,7 +6,7 @@ import Navbar from "@/Component/shared/Navbar";
 const HomePage = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
     </div>
   );
 };

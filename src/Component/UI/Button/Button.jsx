@@ -1,16 +1,10 @@
-export default function Button({
-  children,
-  onClick,
-  className = "",
-  type = "button",
-}) {
+export const Button = ({ children, className = "", ...props }) => {
   return (
     <button
-      type={type}
-      onClick={onClick}
-      className={`bg-primary text-white px-4 py-2 rounded hover:bg-blue-700 transition ${className}`}
+      className={`bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-200 ${className}`}
+      {...props}
     >
       {children}
     </button>
   );
-}
+};
