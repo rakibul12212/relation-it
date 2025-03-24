@@ -3,7 +3,7 @@ import React from "react";
 const Breadcrumb = ({ paths, title }) => {
   return (
     <div className="space-y-2">
-      <nav className="text-sm text-gray-600 flex items-center space-x-1">
+      <nav className="text-xs text-gray-600 flex items-center space-x-1">
         {paths.map((path, index) => (
           <React.Fragment key={index}>
             <span>{path}</span>

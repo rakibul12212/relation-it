@@ -1,14 +1,14 @@
 "use client";
 
-import SuperAdminSidebar from "@/Component/sidebar/SuperAdminSidebar";
+import React from "react";
 
-const page = () => {
+const AdminHome = () => {
   return (
     <div>
-      <SuperAdminSidebar/>
-      <p>super admin dashboard</p>
+      <h1 className="text-2xl font-semibold mb-4">Super Admin Dashboard</h1>
+      <p>Welcome to the Super Admin Dashboard Home Page.</p>
     </div>
   );
 };
 
-export default page;
+export default AdminHome;
