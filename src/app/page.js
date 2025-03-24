@@ -2,11 +2,10 @@
 
 import Navbar from "@/Component/shared/Navbar";
 
-
 const HomePage = () => {
   return (
-    <div>
-      {/* <Navbar /> */}
+    <div className="flex items-center justify-center h-screen">
+      hello relation it
     </div>
   );
 };
