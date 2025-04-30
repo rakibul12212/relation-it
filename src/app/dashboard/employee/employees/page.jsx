@@ -1,5 +1,38 @@
+"use client";
 import { IoIosSync } from "react-icons/io";
 import { FaBirthdayCake } from "react-icons/fa";
+import { FaBed } from "react-icons/fa";
+import { MdEmojiPeople } from "react-icons/md";
+import { PiBagSimpleFill } from "react-icons/pi";
+import { assets } from "@/assets";
+
+const todayData = [
+  {
+    icon: <FaBirthdayCake />,
+    text: "Happy Birthday!",
+    userImg: assets.userImg.u1,
+  },
+  {
+    icon: <MdEmojiPeople />,
+    text: "John Doe is off sick today",
+    userImg: assets.userImg.u2,
+  },
+  {
+    icon: <PiBagSimpleFill />,
+    text: "John Doe is parenting leave today",
+    userImg: assets.userImg.u3,
+  },
+  {
+    icon: <PiBagSimpleFill />,
+    text: "Denny Ward is away today",
+    userImg: assets.userImg.u3,
+  },
+  {
+    icon: <PiBagSimpleFill />,
+    text: "Jhon Gibbs is working from home today",
+    userImg: assets.userImg.u3,
+  },
+];
 
 const EmployeesPage = () => {
   return (
@@ -40,10 +73,23 @@ const EmployeesPage = () => {
             <p className="py-2 text-2xl">Todays</p>
             <IoIosSync />
           </div>
-          <div className="flex item-center gap-x-10">
-            <FaBirthdayCake className="text-purple-900" />
 
-            <p>No Birthday Today</p>
+          <div>
+            {todayData.map((item, index) => (
+              <div
+                key={index}
+                className="flex item-center justify-between gap-x-10 leading-10 text-left"
+              >
+                <span>{item.icon}</span>
+
+                <p className="text-left">{item.text}</p>
+                <img
+                  src={item.userImg}
+                  alt="user"
+                  className="w-8 h-8 rounded-full"
+                />
+              </div>
+            ))}
           </div>
         </div>
       </div>
