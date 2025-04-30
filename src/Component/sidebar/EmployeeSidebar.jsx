@@ -57,7 +57,7 @@ export default function EmployeeSidebar() {
         </div>
 
         {/* Navigation Menu */}
-        <ul className="grid grid-cols-2  text-gray-700 text-base">
+        <ul className="grid grid-cols-2 gap-2 text-gray-700 text-base">
           {menuItems.map((item, index) => {
             const isActive =
               pathname === item.path || pathname.startsWith(item.path + "/");
@@ -71,7 +71,7 @@ export default function EmployeeSidebar() {
               >
                 <Link
                   href={item.path}
-                  className="block p-3 text-center hover:text-blue-600 transition"
+                  className="block p-2 text-center hover:text-blue-600 transition"
                 >
                   {item.name}
                 </Link>
